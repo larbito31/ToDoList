@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #6495ED;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#inputField {
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #6495ED;
+    font-size: 20px;
+    margin-right: 10px;
+    outline: none;
+    padding: 5px;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+#inputField:focus {
+    border-bottom: 2px solid #FFA500;
+}
+
+#addToDo {
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: #6495ED;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#addToDo:hover {
+    background-color: #FFA500;
+}
+
+.to-dos {
+    margin-top: 20px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    padding: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph-styling span {
+    margin-right: 10px;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #333;
+}
+
+.paragraph-styling .delete {
+    font-size: 20px;
+    color: #FF0000;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.paragraph-styling .delete:hover {
+    color: #990000;
+}
+
+
+#current-date {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+  }
